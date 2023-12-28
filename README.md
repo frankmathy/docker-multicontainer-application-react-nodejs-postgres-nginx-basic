@@ -13,3 +13,9 @@ to pull them down when in next tutorial we will use them in Kubernetes.
 Note: When during startup of the client a strange SSL error appears, call the following from the command line to enable the legacy SSL provider:
 export NODE_OPTIONS=--openssl-legacy-provider
 See https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
+
+Build React Docker Dev Image
+
+```
+docker build .  -f Dockerfile.dev -t stylerhun/multi-client
+```
